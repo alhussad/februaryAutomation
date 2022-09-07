@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="13" time="79.401">
+    <testcase classname="UKBA Test Automation" name="1_Country and Study" time="11.859">
+        <system-out><![CDATA[Given I am on UKBA website "https://www.gov.uk/check-uk-visa/y".............passed
+Given I provide the nationality of "Japan"..................................passed
+When I click on Continue button.............................................passed
+And I select the reason as study............................................passed
+And I click on Continue button..............................................passed
+And I state that I intend stay for more than 6 months.......................passed
+And I click on Continue button..............................................passed
+Then I should be informed that "You’ll need a visa to study in the UK"......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="UKBA Test Automation" name="2_CountryA and Tourism" time="5.495">
+        <system-out><![CDATA[Given I am on UKBA website "https://www.gov.uk/check-uk-visa/y".............passed
+Given I provide the nationality of "Japan"..................................passed
+When I click on Continue button.............................................passed
+And I select the reason as Tourism..........................................passed
+And I click on Continue button..............................................passed
+Then I should be informed that "You will not need a visa to come to the UK".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="UKBA Test Automation" name="3_CountryB and Tourism" time="5.727">
+        <system-out><![CDATA[Given I am on UKBA website "https://www.gov.uk/check-uk-visa/y".............passed
+Given I provide the nationality of "Russia".................................passed
+When I click on Continue button.............................................passed
+And I select the reason as Tourism..........................................passed
+And I click on Continue button..............................................passed
+And I state I am not travelling or visiting a partner or family.............passed
+And I click on Continue button..............................................passed
+Then I should be informed that "You’ll need a visa to come to the UK".......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="UKBA Test Automation" name="4_Country and Study with Examples" time="5.536">
+        <system-out><![CDATA[Given I am on UKBA website "https://www.gov.uk/check-uk-visa/y".............passed
+Given I provide the nationality of "Japan"..................................passed
+When I click on Continue button.............................................passed
+And I select the reason as study............................................passed
+And I click on Continue button..............................................passed
+And I state that I intend stay for more than 6 months.......................passed
+And I click on Continue button..............................................passed
+Then I should be informed that "You’ll need a visa to study in the UK"......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="UKBA Test Automation" name="4_Country and Study with Examples 2" time="5.459">
+        <system-out><![CDATA[Given I am on UKBA website "https://www.gov.uk/check-uk-visa/y".............passed
+Given I provide the nationality of "Australia"..............................passed
+When I click on Continue button.............................................passed
+And I select the reason as study............................................passed
+And I click on Continue button..............................................passed
+And I state that I intend stay for more than 6 months.......................passed
+And I click on Continue button..............................................passed
+Then I should be informed that "You’ll need a visa to study in the UK"......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="UKBA Test Automation" name="4_Country and Study with Examples 3" time="5.704">
+        <system-out><![CDATA[Given I am on UKBA website "https://www.gov.uk/check-uk-visa/y".............passed
+Given I provide the nationality of "Canada".................................passed
+When I click on Continue button.............................................passed
+And I select the reason as study............................................passed
+And I click on Continue button..............................................passed
+And I state that I intend stay for more than 6 months.......................passed
+And I click on Continue button..............................................passed
+Then I should be informed that "You’ll need a visa to study in the UK"......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="UKBA Test Automation" name="4_Country and Study with Examples 4" time="5.604">
+        <system-out><![CDATA[Given I am on UKBA website "https://www.gov.uk/check-uk-visa/y".............passed
+Given I provide the nationality of "USA"....................................passed
+When I click on Continue button.............................................passed
+And I select the reason as study............................................passed
+And I click on Continue button..............................................passed
+And I state that I intend stay for more than 6 months.......................passed
+And I click on Continue button..............................................passed
+Then I should be informed that "You’ll need a visa to study in the UK"......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="UKBA Test Automation" name="6_CountryB and Tourism with Examples" time="5.414">
+        <system-out><![CDATA[Given I am on UKBA website "https://www.gov.uk/check-uk-visa/y".............passed
+Given I provide the nationality of "Russia".................................passed
+When I click on Continue button.............................................passed
+And I select the reason as Tourism..........................................passed
+And I click on Continue button..............................................passed
+And I state I am not travelling or visiting a partner or family.............passed
+And I click on Continue button..............................................passed
+Then I should be informed that "You’ll need a visa to come to the UK".......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="UKBA Test Automation" name="6_CountryB and Tourism with Examples 2" time="5.631">
+        <system-out><![CDATA[Given I am on UKBA website "https://www.gov.uk/check-uk-visa/y".............passed
+Given I provide the nationality of "Cuba"...................................passed
+When I click on Continue button.............................................passed
+And I select the reason as Tourism..........................................passed
+And I click on Continue button..............................................passed
+And I state I am not travelling or visiting a partner or family.............passed
+And I click on Continue button..............................................passed
+Then I should be informed that "You’ll need a visa to come to the UK".......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="UKBA Test Automation" name="6_CountryB and Tourism with Examples 3" time="5.769">
+        <system-out><![CDATA[Given I am on UKBA website "https://www.gov.uk/check-uk-visa/y".............passed
+Given I provide the nationality of "Belarus"................................passed
+When I click on Continue button.............................................passed
+And I select the reason as Tourism..........................................passed
+And I click on Continue button..............................................passed
+And I state I am not travelling or visiting a partner or family.............passed
+And I click on Continue button..............................................passed
+Then I should be informed that "You’ll need a visa to come to the UK".......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="UKBA Test Automation" name="6_CountryB and Tourism with Examples 4" time="5.752">
+        <system-out><![CDATA[Given I am on UKBA website "https://www.gov.uk/check-uk-visa/y".............passed
+Given I provide the nationality of "Albania"................................passed
+When I click on Continue button.............................................passed
+And I select the reason as Tourism..........................................passed
+And I click on Continue button..............................................passed
+And I state I am not travelling or visiting a partner or family.............passed
+And I click on Continue button..............................................passed
+Then I should be informed that "You’ll need a visa to come to the UK".......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="UKBA Test Automation" name="6_CountryB and Tourism with Examples 5" time="5.581">
+        <failure message="&#10;Expected: is &quot;You’ll need a visa to come to the UK&quot;&#10;     but: was &quot;Your answers&quot;" type="java.lang.AssertionError"><![CDATA[Given I am on UKBA website "https://www.gov.uk/check-uk-visa/y".............passed
+Given I provide the nationality of "Hong Kong"..............................passed
+When I click on Continue button.............................................passed
+And I select the reason as Tourism..........................................passed
+And I click on Continue button..............................................passed
+And I state I am not travelling or visiting a partner or family.............passed
+And I click on Continue button..............................................passed
+Then I should be informed that "You’ll need a visa to come to the UK".......failed
+
+StackTrace:
+java.lang.AssertionError: 
+Expected: is "You’ll need a visa to come to the UK"
+     but: was "Your answers"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at stepDefs.UkbaStepDefs.i_should_be_informed_that(UkbaStepDefs.java:73)
+	at ✽.I should be informed that "You’ll need a visa to come to the UK"(file:///D:/AUTOMATION_TESTING/Lateef/Lateef_Class_Jan_2022/AutomationPractice/src/main/resources/featureFiles/Ukba.feature:73)
+]]></failure>
+    </testcase>
+    <testcase classname="UKBA Test Automation" name="6_CountryB and Tourism with Examples 6" time="5.414">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id='response-1']&quot;}&#10;  (Session info: chrome=104.0.5112.82)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.2.2', revision: '683ccb65d6'&#10;System info: host: 'LAPTOP-FPRQ7N12', ip: '192.168.8.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [93d86b722df49b14618c1849fe281bba, findElement {using=xpath, value=//input[@id='response-1']}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.82, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Abdul\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59798}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59798/devtoo..., se:cdpVersion: 104.0.5112.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 93d86b722df49b14618c1849fe281bba" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given I am on UKBA website "https://www.gov.uk/check-uk-visa/y".............passed
+Given I provide the nationality of "South Korea"............................passed
+When I click on Continue button.............................................passed
+And I select the reason as Tourism..........................................passed
+And I click on Continue button..............................................passed
+And I state I am not travelling or visiting a partner or family.............failed
+And I click on Continue button..............................................skipped
+Then I should be informed that "You’ll need a visa to come to the UK".......skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='response-1']"}
+  (Session info: chrome=104.0.5112.82)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'LAPTOP-FPRQ7N12', ip: '192.168.8.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [93d86b722df49b14618c1849fe281bba, findElement {using=xpath, value=//input[@id='response-1']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.82, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Abdul\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59798}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59798/devtoo..., se:cdpVersion: 104.0.5112.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 93d86b722df49b14618c1849fe281bba
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:398)
+	at stepDefs.UkbaStepDefs.iStateIAmNotTravellingOrVisitingAPartnerOrFamily(UkbaStepDefs.java:67)
+	at ✽.I state I am not travelling or visiting a partner or family(file:///D:/AUTOMATION_TESTING/Lateef/Lateef_Class_Jan_2022/AutomationPractice/src/main/resources/featureFiles/Ukba.feature:71)
+]]></failure>
+    </testcase>
+</testsuite>
